@@ -1,0 +1,31 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: pro
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: pro
+
+  person:
+  name: "张三"
+  age: 18
+  boss: true
+  list:
+  - zhangsan
+  - lisi
+  - wangwu
+  map: {"person1":"123","person2":"456"}
+  dog:
+    dogName: "nee"
+    dogAge: 18
+
+
+
